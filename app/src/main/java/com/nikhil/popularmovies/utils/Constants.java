@@ -5,7 +5,7 @@ package com.nikhil.popularmovies.utils;
  */
 public class Constants {
 
-    public static final String MOVIE_DB_API_KEY = "8c474aaf6e640566ee3937035a5306e6";
+    public static final String MOVIE_DB_API_KEY = "";
     public static final String BASE_IMAGE_URL_PATH = "http://image.tmdb.org/t/p/";
     public static final String BASE_URL_POPULAR_MOVIES = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=";
     public static final String BASE_URL_HIGHEST_RATED_MOVIES = "http://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&api_key=";
