@@ -1,0 +1,19 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">"Popular Movies"</string>
+    <string name="action_settings">"Settings"</string>
+    <string name="request_failed">"Request failed, please try again"</string>
+    <string name="mark_as_fav">"Mark As Favourite"</string>
+    <string name="no_internet">"No Internet Connection Available"</string>
+    <string name="movie_duration"><xliff:g id="duration">%1$s</xliff:g>"min"</string>
+    <string name="movie_rating"><xliff:g id="rating">%1$s</xliff:g>"/10"</string>
+    <string name="settting_title">"Sort Criteria"</string>
+    <string name="pref_key">"sort_type"</string>
+    <string name="most_popular" translatable="false">"Most Popular"</string>
+    <string name="highest_rated" translatable="false">"Highest Rated"</string>
+
+
+    <string-array name="pref_units_values">
+        <item>@string/most_popular</item>
+        <item>@string/highest_rated</item>
+    </string-array>
+</resources>
